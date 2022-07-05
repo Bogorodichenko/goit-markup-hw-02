@@ -1,0 +1,279 @@
+:root {
+    --text-title-color: #212121;
+    --primary-text-color: #757575;
+    --acent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    margin: 0;
+
+}
+
+/* ХЕДЕР */
+.header {
+    background-color: #ffffff;
+
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: var(--acent-color);
+}
+
+.nav-links {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-title-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--acent-color);
+}
+
+.studio {
+    color: var(--acent-color);
+}
+
+.portfolio {
+    color: var(--acent-color);
+}
+
+.header-contacts {
+    list-style: none;
+    text-decoration: none;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: var(--primary-text-color) font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--acent-color);
+}
+
+.email {
+    color: var(--acent-color);
+}
+
+/* ГЕРОЙ */
+.hero {
+    background-color: #2F303A;
+    margin: 0;
+
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.button {
+    background-color: var(--acent-color);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+/* ПЕРЕВАГИ */
+.benefits {
+    background-color: var(--primary-background-color);
+}
+
+.benerits-list {
+    list-style: none;
+}
+
+.benefits-title {
+    color: var(--text-title-color);
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-description {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+}
+
+/* чим займаємося */
+.our-work {
+    background-color: var(--primary-background-color);
+}
+
+.our-work-title {
+    font-size: 36px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-title-color);
+}
+
+.our-work-list {
+    list-style: none;
+}
+
+/* КОМАНДА */
+.team {
+    background-color: #F5F4FA;
+
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-title-color);
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-member-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--text-title-color);
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/* ФУТЕР */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal
+}
+
+.post-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF
+}
+
+/* ПОРТФОЛІО */
+.main {
+    background-color: var(--primary-background-color);
+}
+
+.filter-list {
+    list-style: none;
+}
+
+.filter-button {
+    background: #F5F4FA;
+    color: var(--text-title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.filter-all {
+    background-color: var(--acent-color);
+    color: #FFFFFF;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--acent-color);
+    color: #FFFFFF;
+}
+
+/* 
+display: flex;
+align-items: center; */
+
+.portfolio-list {
+    list-style: none;
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    color: var(--acent-color);
+}
+
+.portfolio-title {
+    color: var(--text-title-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-type {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
