@@ -68,7 +68,8 @@ body {
 
 .contact-link {
     text-decoration: none;
-    color: var(--primary-text-color) font-weight: 500;
+    color: var(--primary-text-color);
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -103,6 +104,7 @@ body {
 .button {
     background-color: var(--acent-color);
     color: #FFFFFF;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -216,6 +218,21 @@ body {
     color: #FFFFFF
 }
 
+.footer-contact-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    color: var(--acent-color);
+}
+
+
 /* ПОРТФОЛІО */
 .main {
     background-color: var(--primary-background-color);
@@ -228,6 +245,7 @@ body {
 .filter-button {
     background: #F5F4FA;
     color: var(--text-title-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -247,9 +265,6 @@ body {
     color: #FFFFFF;
 }
 
-/* 
-display: flex;
-align-items: center; */
 
 .portfolio-list {
     list-style: none;
